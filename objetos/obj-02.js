@@ -12,8 +12,14 @@ const celulares = {
 }
 celulares.modelo = "celular"
 celulares["nome"] = "iphone 17 pro max"
+celulares.cores = "laranja, branco"
+celulares.armazenamento = "1Tb"
+celulares.preco = "R$ 12.000,00"
 console.log(celulares.modelo)
 console.log(celulares.nome)
+console.log(celulares.cores)
+console.log(celulares.armazenamento)
+console.log(celulares.preco)
 
 console.log("Iphone: " + celulares.nome)
 
